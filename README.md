@@ -53,7 +53,7 @@ Notes live alongside the code under `lessons/`. You can read them three ways:
 ### 1. Clone and install
 
 ```bash
-git clone <this repo url>
+git clone git@github.com:Hendrixer/harness-engineering.git
 cd harness-engineering
 npm install
 ```
