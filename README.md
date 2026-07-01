@@ -2,8 +2,7 @@
 
 > Stop building scripts. Start building durable multi-agent systems.
 
-A one-day, hands-on workshop on the infrastructure layer around an LLM — the **harness** — that
-makes agents survive production. Move past basic while-loops and API wrappers and learn the
+This is a companion repo for the [Master.dev Harness Engineering course](https://master.dev/courses/agent-harness/) covering the infrastructure layer around an LLM — the **harness** — that makes agents survive production. Move past basic while-loops and API wrappers and learn the
 patterns that keep agents durable, isolated, memory-aware, and coordinated.
 
 Instead of one large cumulative project, each lesson tackles a **new architectural pattern**: you
