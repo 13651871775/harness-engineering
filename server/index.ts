@@ -1,6 +1,6 @@
-import { config } from "dotenv";
-// Load secrets from .dev.vars (OPENAI_API_KEY, ...) before anything else.
-config({ path: ".dev.vars" });
+// Load env (OPENAI_API_KEY, OPENAI_BASE_URL, DATABASE_URL) before any other
+// imports — ES module imports are evaluated first, so this must be line 1.
+import "./env";
 
 import express from "express";
 import { createServer } from "node:http";
